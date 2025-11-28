@@ -1,0 +1,10 @@
+# Minimal runtime dependencies for the educational blockchain
+# Install with: pip install -r requirements.txt
+
+ecdsa
+rich
+streamlit
+
+# Optional: zk-SNARK library. Installing this may require native build tools (GMP, C compiler).
+# Use a virtualenv or WSL/conda for easier installation on Windows.
+py_ecc
